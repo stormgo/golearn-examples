@@ -1,0 +1,11 @@
+
+export GOPATH=${PWD}
+
+cd $GOPATH/src/github.com/sjwhitworth/golearn/examples/knnclassifier
+go run knnclassifier_iris.go
+
+cd $GOPATH/src/github.com/sjwhitworth/golearn/examples/instances
+go run instances.go
+
+cd $GOPATH/src/github.com/sjwhitworth/golearn/examples/trees
+go run trees.go

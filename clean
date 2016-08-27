@@ -1,0 +1,4 @@
+
+rm -fr bin
+rm -fr pkg
+rm -fr src

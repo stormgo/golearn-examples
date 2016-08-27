@@ -1,0 +1,9 @@
+
+export GOPATH=${PWD}
+
+go get github.com/gonum/blas
+go get -t -u -v github.com/sjwhitworth/golearn
+
+cd $GOPATH/src/github.com/sjwhitworth/golearn
+
+go get -t -u -v ./...
