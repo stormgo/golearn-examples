@@ -10,3 +10,5 @@ To run:
 To clean up:
 
 ./clean
+
+ok
